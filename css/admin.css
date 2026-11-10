@@ -1,0 +1,44 @@
+/* ===== Painel admin ===== */
+.adm{padding:calc(68px + env(safe-area-inset-top,0px) + 48px) 0 120px}
+.ah{display:flex;justify-content:space-between;align-items:center;gap:16px;margin-bottom:34px}
+.ah h1{font-weight:200;font-size:clamp(1.4rem,3vw,2rem);letter-spacing:.24em;text-transform:uppercase}
+.ah .btn{padding:13px 24px;font-size:11px}
+.ag{display:grid;grid-template-columns:minmax(0,1fr);gap:40px;align-items:start}
+.ag.open{grid-template-columns:minmax(0,1fr) 400px}
+.tw{overflow-x:auto}
+.tb{width:100%;border-collapse:collapse;font-size:13px;min-width:560px}
+.tb th{text-align:left;padding:0 12px 14px 0;font-weight:400;font-size:10px;letter-spacing:.22em;text-transform:uppercase;color:var(--mut);border-bottom:1px solid var(--line)}
+.tb td{padding:14px 12px 14px 0;border-bottom:1px solid var(--line);vertical-align:middle}
+.tb tr.off td{opacity:.45}
+.pn{display:flex;align-items:center;gap:14px}
+.pn b{display:block;font-weight:400}.pn small{color:var(--mut);font-size:11px}
+.pn em{font-style:normal;font-size:9px;letter-spacing:.2em;text-transform:uppercase;border:1px solid var(--line);padding:3px 7px}
+.pt{flex:none;width:44px;height:44px;border:1px solid var(--line);background:#0a0a0a;overflow:hidden}
+.pt img{width:100%;height:100%;object-fit:cover;display:block}
+.ac{white-space:nowrap}
+.ac button{margin-right:18px;font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--mut);transition:color .3s}
+.ac button:hover{color:var(--iv)}
+.em{text-align:center;color:var(--mut);padding:40px 0!important}
+.ef{display:grid;gap:20px;padding:28px;border:1px solid var(--line);background:#080808}
+.ef[hidden]{display:none}
+.ef h2{text-align:left;padding:0;font-size:12px;letter-spacing:.3em}
+.ef label,.fl>span{display:grid;gap:8px;font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--mut)}
+.ef input,.ef select,.ef textarea{width:100%;background:none;border:0;border-bottom:1px solid var(--line);border-radius:0;color:var(--iv);font:300 14px var(--font);letter-spacing:.03em;padding:9px 0;outline:0;transition:border-color .3s}
+.ef select option{background:#0b0b0b}
+.ef textarea{resize:vertical;line-height:1.6}
+.ef input:focus,.ef select:focus,.ef textarea:focus{border-color:var(--iv)}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.fl{display:grid;gap:12px}
+.fg{display:grid;grid-template-columns:repeat(auto-fill,minmax(100px,1fr));gap:10px}
+.ft{border:1px solid var(--line)}
+.ft img{display:block;width:100%;aspect-ratio:1/1;object-fit:cover}
+.ft figcaption{display:flex;justify-content:space-between;gap:6px;padding:7px 8px;font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:var(--mut)}
+.ft button{font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:var(--mut)}
+.ft button:hover{color:var(--iv)}
+.hint{font-size:11px;color:var(--mut);letter-spacing:.06em}
+.msg{min-height:1.2em;font-size:12px;color:#e0a39a}
+.eb{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.ef .btn{justify-content:center;padding:14px;font-size:11px}
+.ef .btn[disabled]{opacity:.4;pointer-events:none}
+.nf{display:flex;flex-direction:column;align-items:center;gap:28px;padding:90px 0;text-align:center;font-size:12px;letter-spacing:.22em;text-transform:uppercase;color:var(--mut)}
+@media (max-width:900px){.ag.open{grid-template-columns:minmax(0,1fr)}.ef{order:-1}}

@@ -1,0 +1,29 @@
+/* ===== Carrinho ===== */
+.cpage{padding:calc(68px + env(safe-area-inset-top,0px) + 56px) 0 120px}
+.cph{display:flex;align-items:baseline;gap:22px;margin-bottom:38px}
+.cph h1{font-weight:200;font-size:clamp(1.6rem,3.4vw,2.4rem);letter-spacing:.3em;text-transform:uppercase;line-height:1.2}
+.cph p{font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--mut)}
+.cpg{display:grid;grid-template-columns:minmax(0,1fr) 360px;gap:clamp(32px,5vw,72px);align-items:start}
+.cpg[hidden],.cpe[hidden]{display:none}
+.cpl .items{margin:0;overflow:visible;border-top:1px solid var(--line)}
+.cpl .ci{grid-template-columns:120px 1fr auto;gap:26px;padding:26px 0}
+.cpl .cn{font-size:15px}.cpl .cp{font-size:13px}.cpl .cr strong{font-size:15px}
+.cps{position:sticky;top:96px;display:grid;gap:20px;padding:30px;border:1px solid var(--line);background:#080808}
+.cps h2{text-align:left;padding:0;margin:0;font-size:12px;letter-spacing:.3em}
+.sum{margin:0;display:grid;gap:14px;font-size:13px}
+.sum div{display:flex;justify-content:space-between;gap:12px}
+.sum dt{color:var(--mut);letter-spacing:.06em}.sum dd{margin:0}
+.sum .tt{padding-top:16px;border-top:1px solid var(--line);font-size:17px;align-items:baseline}
+.sum .tt dt{color:var(--iv);font-size:11px;letter-spacing:.22em;text-transform:uppercase}
+.cps .btn{justify-content:center}
+.cps .btn[disabled]{opacity:.35;pointer-events:none}
+.lnk{text-align:center;font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--mut);transition:color .3s}
+.lnk:hover{color:var(--iv)}
+.cmsg{min-height:1.2em;font-size:12px;letter-spacing:.04em;color:#e0a39a}
+.cpe{display:flex;flex-direction:column;align-items:center;gap:26px;padding:70px 0;text-align:center}
+.cpe p{font-size:12px;letter-spacing:.22em;text-transform:uppercase;color:var(--mut)}
+@media (max-width:900px){.cpg{grid-template-columns:1fr}.cps{position:static}}
+@media (max-width:560px){
+  .cpl .ci{grid-template-columns:84px 1fr;gap:16px}
+  .cpl .cr{grid-column:1/-1;flex-direction:row;align-items:center}
+}

@@ -1,0 +1,19 @@
+/* ===== Conta ===== */
+.cw{width:min(440px,100% - 48px);margin:0 auto;padding:calc(68px + env(safe-area-inset-top,0px) + 72px) 0 120px}
+.cw h1{font-weight:200;font-size:clamp(1.6rem,3.4vw,2.3rem);letter-spacing:.2em;text-transform:uppercase;line-height:1.2}
+.ce{margin-top:12px;font-size:13px;letter-spacing:.06em;color:var(--mut)}
+.ctabs{display:flex;gap:28px;border-bottom:1px solid var(--line);margin-bottom:34px}
+.ctabs button{padding:0 0 14px;margin-bottom:-1px;font-size:12px;letter-spacing:.22em;text-transform:uppercase;color:var(--mut);border-bottom:1px solid transparent;transition:color .3s,border-color .3s}
+.ctabs button[aria-selected=true]{color:var(--iv);border-color:var(--iv)}
+.cf{display:grid;gap:22px}
+.cf[hidden]{display:none}
+.cf label{display:grid;gap:8px;font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--mut)}
+.cf input{background:none;border:0;border-bottom:1px solid var(--line);border-radius:0;color:var(--iv);font:300 15px var(--font);letter-spacing:.04em;padding:10px 0;outline:0;transition:border-color .3s}
+.cf input:focus{border-color:var(--iv)}
+.cf input:-webkit-autofill{-webkit-text-fill-color:var(--iv);box-shadow:0 0 0 1000px #0b0b0b inset}
+.cf .btn{justify-content:center;margin-top:6px}
+.cf .btn[disabled]{opacity:.4;pointer-events:none}
+.hint{margin-top:-10px;font-size:11px;letter-spacing:.06em;color:var(--mut)}
+.msg{min-height:1.2em;font-size:12px;letter-spacing:.04em;color:#e0a39a}
+.cact{display:grid;gap:12px;margin-top:38px}
+.cact .btn{justify-content:center}

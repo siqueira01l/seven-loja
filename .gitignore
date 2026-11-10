@@ -1,0 +1,5 @@
+seven.db
+.secret_key
+__pycache__/
+images/produtos/*
+!images/produtos/.gitkeep

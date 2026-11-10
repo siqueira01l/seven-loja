@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Minha conta — SEVEN</title>
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#050505">
+<link rel="icon" type="image/svg+xml" href="images/logo-seven.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/conta.css">
+<noscript><style>.rv{opacity:1!important;transform:none!important}</style></noscript>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="seven" viewBox="430 345 570 396"><polygon fill="currentColor" points="437,351 992,351 832,426 517,426"/><polygon fill="currentColor" points="965,388 759,481 503,735 623,735"/></symbol>
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+  <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></symbol>
+  <symbol id="i-bag" viewBox="0 0 24 24"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/></symbol>
+  <symbol id="i-x" viewBox="0 0 24 24"><path d="M18 6 6 18M6 6l12 12"/></symbol>
+  <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 8h16M4 16h16"/></symbol>
+  <symbol id="i-gem" viewBox="0 0 24 24"><path d="M6 3h12l4 6-10 13L2 9Z"/><path d="M11 3 8 9l4 13 4-13-3-6"/><path d="M2 9h20"/></symbol>
+  <symbol id="i-shield" viewBox="0 0 24 24"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/><path d="m9 12 2 2 4-4"/></symbol>
+  <symbol id="i-truck" viewBox="0 0 24 24"><path d="M14 18V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h2"/><path d="M15 18H9"/><path d="M19 18h2a1 1 0 0 0 1-1v-3.65a1 1 0 0 0-.22-.62l-3.48-4.35A1 1 0 0 0 17.52 8H14"/><circle cx="17" cy="18" r="2"/><circle cx="7" cy="18" r="2"/></symbol>
+  <symbol id="i-headset" viewBox="0 0 24 24"><path d="M3 14h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-7a9 9 0 0 1 18 0v7a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3"/></symbol>
+  <symbol id="i-bookmark" viewBox="0 0 24 24"><path d="m19 21-7-4-7 4V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16z"/></symbol>
+  <symbol id="i-user" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></symbol>
+</svg>
+
+<header id="top">
+  <div class="wrap bar">
+    <a href="index.html" aria-label="SEVEN — início"><svg class="logo" aria-hidden="true"><use href="#seven"/></svg></a>
+    <nav aria-label="Principal"><ul>
+      <li><a href="index.html">Início</a></li><li><a href="produtos.html">Produtos</a></li>
+      <li><a href="sobre.html">Sobre</a></li><li><a href="#contato">Contato</a></li>
+    </ul></nav>
+    <div class="tools">
+      <button id="bSearch" aria-label="Buscar"><svg class="ico"><use href="#i-search"/></svg></button>
+      <a href="conta.html" id="bUser" aria-label="Entrar"><svg class="ico"><use href="#i-user"/></svg></a>
+      <button id="bBag" aria-label="Abrir carrinho"><svg class="ico"><use href="#i-bag"/></svg><span class="badge" id="cnt">0</span></button>
+      <button class="burger" id="bMenu" aria-label="Abrir menu" aria-expanded="false"><svg class="ico"><use href="#i-menu"/></svg></button>
+    </div>
+  </div>
+</header>
+
+<div class="mob" id="mob">
+  <a href="index.html">Início</a><a href="produtos.html">Produtos</a><a href="sobre.html">Sobre</a><a href="#contato">Contato</a><a href="conta.html">Conta</a>
+</div>
+
+<main>
+  <div class="cw" id="conta" aria-live="polite"></div>
+</main>
+
+<footer id="contato"><div class="wrap">
+  <div class="foot">
+    <svg class="logo" aria-hidden="true"><use href="#seven"/></svg>
+    <ul><li><a href="mailto:contato@seven.com.br">contato@seven.com.br</a></li><li><a href="#" data-n="Instagram">Instagram</a></li><li><a href="#" data-n="WhatsApp">WhatsApp</a></li></ul>
+  </div>
+  <p class="copy">© 2026 SEVEN. TODOS OS DIREITOS RESERVADOS.</p>
+</div></footer>
+
+<div class="srch" id="srch" role="dialog" aria-label="Buscar">
+  <button class="x" id="xSearch" aria-label="Fechar busca"><svg class="ico"><use href="#i-x"/></svg></button>
+  <input id="q" type="search" placeholder="BUSCAR NA SEVEN" aria-label="Buscar">
+</div>
+<div class="veil" id="veil"></div>
+<aside class="drawer" id="drawer" aria-label="Carrinho">
+  <header><h4>Seu carrinho</h4><button id="xBag" aria-label="Fechar carrinho"><svg class="ico"><use href="#i-x"/></svg></button></header>
+  <ul class="items" id="items"></ul>
+  <div class="empty" id="emp"><span>Seu carrinho está vazio</span><a class="cta" href="produtos.html" id="goShop">Explorar coleção <svg class="ico"><use href="#i-arrow"/></svg></a></div>
+  <div class="dfoot" id="dfoot" hidden><div class="dsub"><span>Subtotal</span><strong id="dtot">R$ 0,00</strong></div><a class="btn" href="carrinho.html">Ver carrinho</a></div>
+</aside>
+<div class="toast" id="toast" role="status"></div>
+
+<script src="js/main.js"></script>
+<script src="js/auth.js"></script>
+<script src="js/conta.js"></script>
+</body>
+</html>

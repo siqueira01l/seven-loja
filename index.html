@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>SEVEN — Luxury Redefined</title>
+<meta name="theme-color" content="#050505">
+<link rel="icon" type="image/svg+xml" href="images/logo-seven.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<noscript><style>.rv{opacity:1!important;transform:none!important}</style></noscript>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="seven" viewBox="430 345 570 396"><polygon fill="currentColor" points="437,351 992,351 832,426 517,426"/><polygon fill="currentColor" points="965,388 759,481 503,735 623,735"/></symbol>
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+  <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></symbol>
+  <symbol id="i-bag" viewBox="0 0 24 24"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/></symbol>
+  <symbol id="i-x" viewBox="0 0 24 24"><path d="M18 6 6 18M6 6l12 12"/></symbol>
+  <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 8h16M4 16h16"/></symbol>
+  <symbol id="i-gem" viewBox="0 0 24 24"><path d="M6 3h12l4 6-10 13L2 9Z"/><path d="M11 3 8 9l4 13 4-13-3-6"/><path d="M2 9h20"/></symbol>
+  <symbol id="i-shield" viewBox="0 0 24 24"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/><path d="m9 12 2 2 4-4"/></symbol>
+  <symbol id="i-truck" viewBox="0 0 24 24"><path d="M14 18V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h2"/><path d="M15 18H9"/><path d="M19 18h2a1 1 0 0 0 1-1v-3.65a1 1 0 0 0-.22-.62l-3.48-4.35A1 1 0 0 0 17.52 8H14"/><circle cx="17" cy="18" r="2"/><circle cx="7" cy="18" r="2"/></symbol>
+  <symbol id="i-headset" viewBox="0 0 24 24"><path d="M3 14h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-7a9 9 0 0 1 18 0v7a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3"/></symbol>
+  <symbol id="i-user" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></symbol>
+</svg>
+
+<header id="top">
+  <div class="wrap bar">
+    <a href="#inicio" aria-label="SEVEN — início"><svg class="logo" aria-hidden="true"><use href="#seven"/></svg></a>
+    <nav aria-label="Principal"><ul>
+      <li><a href="#inicio">Início</a></li><li><a href="produtos.html">Produtos</a></li>
+      <li><a href="sobre.html">Sobre</a></li><li><a href="#contato">Contato</a></li>
+    </ul></nav>
+    <div class="tools">
+      <button id="bSearch" aria-label="Buscar"><svg class="ico"><use href="#i-search"/></svg></button>
+      <a href="conta.html" id="bUser" aria-label="Entrar"><svg class="ico"><use href="#i-user"/></svg></a>
+      <button id="bBag" aria-label="Abrir carrinho"><svg class="ico"><use href="#i-bag"/></svg><span class="badge" id="cnt">0</span></button>
+      <button class="burger" id="bMenu" aria-label="Abrir menu" aria-expanded="false"><svg class="ico"><use href="#i-menu"/></svg></button>
+    </div>
+  </div>
+</header>
+
+<div class="mob" id="mob">
+  <a href="#inicio">Início</a><a href="produtos.html">Produtos</a><a href="sobre.html">Sobre</a><a href="#contato">Contato</a><a href="conta.html">Conta</a>
+</div>
+
+<main>
+  <section class="hero" id="inicio">
+    <div class="slot s-veludo bg" aria-hidden="true"></div>
+    <div class="watch rv" style="--d:.35s" id="hs">
+      <div class="slot sl s-h1 on"><span class="ph">Banner 1 · Relógio</span></div>
+      <div class="slot sl s-h2"><span class="ph">Banner 2 · Bolsa</span></div>
+      <div class="slot sl s-h3"><span class="ph">Banner 3 · Óculos</span></div>
+    </div>
+    <div class="dots" id="dots" aria-label="Banners"><button class="on" aria-label="Banner 1"></button><button aria-label="Banner 2"></button><button aria-label="Banner 3"></button></div>
+    <div class="wrap">
+      <div class="hero-txt">
+        <h1 class="brand rv">SEVEN</h1>
+        <p class="tag rv" style="--d:.2s">LUXURY REDEFINED</p>
+        <span class="rule rv" style="--d:.4s"></span>
+        <a class="cta rv" style="--d:.55s" href="produtos.html">Explorar coleção <svg class="ico"><use href="#i-arrow"/></svg></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="trust" aria-label="Benefícios"><div class="wrap"><ul>
+    <li class="rv"><svg class="ico"><use href="#i-gem"/></svg>Produtos<br>autênticos</li>
+    <li class="rv" style="--d:.1s"><svg class="ico"><use href="#i-shield"/></svg>Compra segura</li>
+    <li class="rv" style="--d:.2s"><svg class="ico"><use href="#i-truck"/></svg>Entrega em<br>todo o Brasil</li>
+    <li class="rv" style="--d:.3s"><svg class="ico"><use href="#i-headset"/></svg>Suporte<br>especializado</li>
+  </ul></div></section>
+
+  <section id="produtos"><div class="wrap">
+    <h2 class="rv">Nossas coleções</h2><span class="under rv" style="--d:.15s"></span>
+    <div class="grid">
+      <a class="card rv" href="produtos.html?cat=relogios"><div class="slot s-relogios"><span class="ph">Imagem · Relógios</span></div><div class="cap"><b>Relógios</b><span>Ver coleção <svg class="ico"><use href="#i-arrow"/></svg></span></div></a>
+      <a class="card rv" style="--d:.12s" href="produtos.html?cat=bolsas"><div class="slot s-bolsas"><span class="ph">Imagem · Bolsas</span></div><div class="cap"><b>Bolsas</b><span>Ver coleção <svg class="ico"><use href="#i-arrow"/></svg></span></div></a>
+      <a class="card rv" style="--d:.24s" href="produtos.html?cat=oculos"><div class="slot s-oculos"><span class="ph">Imagem · Óculos</span></div><div class="cap"><b>Óculos</b><span>Ver coleção <svg class="ico"><use href="#i-arrow"/></svg></span></div></a>
+    </div>
+  </div></section>
+
+  <section class="news" id="lancamentos"><div class="wrap">
+    <h2 class="rv">Últimos lançamentos</h2><span class="under rv" style="--d:.15s"></span>
+    <div class="pgrid">
+      <article class="prod rv"><a class="plink" href="produto.html?id=13"><div class="pimg"><div class="slot s-p1"><span class="ph">Produto 1</span></div><em>Novo</em></div><div class="pinfo"><div><b>Relógio Aço Negro</b><small>Relógios</small></div><span class="pr">R$ 18.900</span></div></a><button class="add" data-id="13" data-n="Relógio Aço Negro" data-p="R$ 18.900">Adicionar ao carrinho</button></article>
+      <article class="prod rv" style="--d:.1s"><a class="plink" href="produto.html?id=14"><div class="pimg"><div class="slot s-p2"><span class="ph">Produto 2</span></div><em>Novo</em></div><div class="pinfo"><div><b>Bolsa Matelassê</b><small>Bolsas</small></div><span class="pr">R$ 9.400</span></div></a><button class="add" data-id="14" data-n="Bolsa Matelassê" data-p="R$ 9.400">Adicionar ao carrinho</button></article>
+      <article class="prod rv" style="--d:.2s"><a class="plink" href="produto.html?id=15"><div class="pimg"><div class="slot s-p3"><span class="ph">Produto 3</span></div><em>Novo</em></div><div class="pinfo"><div><b>Óculos Aviador Noir</b><small>Óculos</small></div><span class="pr">R$ 2.350</span></div></a><button class="add" data-id="15" data-n="Óculos Aviador Noir" data-p="R$ 2.350">Adicionar ao carrinho</button></article>
+      <article class="prod rv" style="--d:.3s"><a class="plink" href="produto.html?id=16"><div class="pimg"><div class="slot s-p4"><span class="ph">Produto 4</span></div><em>Novo</em></div><div class="pinfo"><div><b>Cronógrafo Prata</b><small>Relógios</small></div><span class="pr">R$ 24.500</span></div></a><button class="add" data-id="16" data-n="Cronógrafo Prata" data-p="R$ 24.500">Adicionar ao carrinho</button></article>
+    </div>
+    <div class="more rv"><a class="cta" href="produtos.html">Ver todos os produtos <svg class="ico"><use href="#i-arrow"/></svg></a></div>
+  </div></section>
+
+  <section class="brands" id="marcas" aria-label="Marcas">
+    <div class="wrap"><h2 class="rv">Marcas</h2><span class="under rv" style="--d:.15s"></span></div>
+    <!-- troque cada span pelo logo: <span><img src="logo.svg" alt="Marca" height="28"></span> -->
+    <div class="mq"><div class="track"><span>MARCA 01</span><span>MARCA 02</span><span>MARCA 03</span><span>MARCA 04</span><span>MARCA 05</span><span>MARCA 06</span></div></div>
+  </section>
+
+  <section class="about" id="sobre">
+    <div class="slot s-veludo bg" aria-hidden="true"></div>
+    <div class="wrap">
+      <h3 class="rv">SEVEN</h3>
+      <p class="rv" style="--d:.15s">Mais que luxo.<br>Um estilo de vida.</p>
+      <span class="under rv" style="--d:.3s"></span>
+    </div>
+  </section>
+  <section class="cban" id="colecao">
+    <div class="slot s-cta bg" aria-hidden="true"></div>
+    <div class="wrap">
+      <p class="eb rv">Coleção SEVEN</p>
+      <h3 class="rv" style="--d:.1s">Descubra o extraordinário</h3>
+      <p class="sub rv" style="--d:.2s">Peças autênticas, curadoria exclusiva e entrega em todo o Brasil.</p>
+      <div class="rv" style="--d:.3s"><a class="btn" href="produtos.html">Conhecer a coleção <svg class="ico"><use href="#i-arrow"/></svg></a></div>
+    </div>
+  </section>
+</main>
+
+<footer id="contato"><div class="wrap">
+  <div class="foot">
+    <svg class="logo" aria-hidden="true"><use href="#seven"/></svg>
+    <ul><li><a href="mailto:contato@seven.com.br">contato@seven.com.br</a></li><li><a href="#" data-n="Instagram">Instagram</a></li><li><a href="#" data-n="WhatsApp">WhatsApp</a></li></ul>
+  </div>
+  <p class="copy">© 2026 SEVEN. TODOS OS DIREITOS RESERVADOS.</p>
+</div></footer>
+
+<div class="srch" id="srch" role="dialog" aria-label="Buscar">
+  <button class="x" id="xSearch" aria-label="Fechar busca"><svg class="ico"><use href="#i-x"/></svg></button>
+  <input id="q" type="search" placeholder="BUSCAR NA SEVEN" aria-label="Buscar">
+</div>
+<div class="veil" id="veil"></div>
+<aside class="drawer" id="drawer" aria-label="Carrinho">
+  <header><h4>Seu carrinho</h4><button id="xBag" aria-label="Fechar carrinho"><svg class="ico"><use href="#i-x"/></svg></button></header>
+  <ul class="items" id="items"></ul>
+  <div class="empty" id="emp"><span>Seu carrinho está vazio</span><a class="cta" href="produtos.html" id="goShop">Explorar coleção <svg class="ico"><use href="#i-arrow"/></svg></a></div>
+  <div class="dfoot" id="dfoot" hidden><div class="dsub"><span>Subtotal</span><strong id="dtot">R$ 0,00</strong></div><a class="btn" href="carrinho.html">Ver carrinho</a></div>
+</aside>
+<div class="toast" id="toast" role="status"></div>
+
+<script src="js/main.js"></script>
+<script src="js/auth.js"></script>
+<script src="js/home.js"></script>
+</body>
+</html>
