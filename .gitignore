@@ -3,3 +3,4 @@ seven.db
 __pycache__/
 images/produtos/*
 !images/produtos/.gitkeep
+.env

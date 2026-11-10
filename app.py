@@ -8,6 +8,8 @@ from functools import wraps
 from getpass import getpass
 from flask import Flask, abort, g, jsonify, request, send_from_directory, session
 from werkzeug.security import check_password_hash, generate_password_hash
+from dotenv import load_dotenv
+load_dotenv()
 
 BASE = os.path.dirname(os.path.abspath(__file__))
 DB = os.environ.get("SEVEN_DB", os.path.join(BASE, "seven.db"))
